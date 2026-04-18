@@ -17,9 +17,6 @@
 //ggml: build shared libraries
 BUILD_SHARED_LIBS:BOOL=ON
 
-//Build the testing tree.
-BUILD_TESTING:BOOL=ON
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/sbin/addr2line
 
@@ -299,22 +296,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
-
-//Path to the coverage program that CTest uses for performing coverage
-// inspection
-COVERAGE_COMMAND:FILEPATH=/usr/sbin/gcov
-
-//Extra command line flags to pass to the coverage tool
-COVERAGE_EXTRA_FLAGS:STRING=-l
-
-//How many times to retry timed-out CTest submissions.
-CTEST_SUBMIT_RETRY_COUNT:STRING=3
-
-//How long to wait between timed-out CTest submissions.
-CTEST_SUBMIT_RETRY_DELAY:STRING=5
-
-//Maximum time allowed before CTest will kill the test.
-DART_TESTING_TIMEOUT:STRING=1500
 
 //ggml: enable Accelerate framework
 GGML_ACCELERATE:BOOL=ON
@@ -662,9 +643,6 @@ GGML_ZDNN:BOOL=OFF
 GGML_ZENDNN:BOOL=OFF
 
 //Path to a program.
-GITCOMMAND:FILEPATH=/usr/sbin/git
-
-//Path to a program.
 GIT_EXE:FILEPATH=/usr/sbin/git
 
 //Git command line client
@@ -683,18 +661,18 @@ LLAMA_BIN_INSTALL_DIR:PATH=bin
 LLAMA_BUILD_COMMON:BOOL=ON
 
 //llama: build examples
-LLAMA_BUILD_EXAMPLES:BOOL=ON
+LLAMA_BUILD_EXAMPLES:BOOL=OFF
 
 //llama: build server example
-LLAMA_BUILD_SERVER:BOOL=ON
+LLAMA_BUILD_SERVER:BOOL=OFF
 
 //llama: build tests
-LLAMA_BUILD_TESTS:BOOL=ON
+LLAMA_BUILD_TESTS:BOOL=OFF
 
 //llama: build tools
 LLAMA_BUILD_TOOLS:BOOL=ON
 
-//Build the embedded Web UI
+//llama: build the embedded Web UI for server
 LLAMA_BUILD_WEBUI:BOOL=ON
 
 //llama: enable -Werror flag
@@ -734,17 +712,8 @@ LLAMA_USE_SYSTEM_GGML:BOOL=OFF
 //llama: use 64-bit memory in WASM builds
 LLAMA_WASM_MEM64:BOOL=ON
 
-//Command to build the project
-MAKECOMMAND:STRING=/usr/sbin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
-
 //Path to a library.
 MATH_LIBRARY:FILEPATH=/usr/lib/libm.so
-
-//Path to the memory checking command, used for memory error detection.
-MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
-
-//File that contains suppressions for the memory checker
-MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/libcrypto.so
@@ -781,9 +750,6 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/sbin/pkg-config
-
-//Name of the computer/site where compile is being run
-SITE:STRING=donut-pad
 
 //ggml: path to ZenDNN installation
 ZENDNN_ROOT:BOOL=OFF
@@ -854,8 +820,6 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=/usr/sbin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/sbin/cpack
-//ADVANCED property for variable: CMAKE_CTEST_COMMAND
-CMAKE_CTEST_COMMAND-ADVANCED:INTERNAL=1
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/sbin/ctest
 //ADVANCED property for variable: CMAKE_CXX_COMPILER
@@ -976,7 +940,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=50
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=23
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1021,16 +985,6 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/sbin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: COVERAGE_COMMAND
-COVERAGE_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: COVERAGE_EXTRA_FLAGS
-COVERAGE_EXTRA_FLAGS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CTEST_SUBMIT_RETRY_COUNT
-CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CTEST_SUBMIT_RETRY_DELAY
-CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DART_TESTING_TIMEOUT
-DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding Git
 FIND_PACKAGE_MESSAGE_DETAILS_Git:INTERNAL=[/usr/sbin/git][v2.53.0()]
 //Details about finding OpenMP
@@ -1048,16 +1002,8 @@ GGML_AVAILABLE_BACKENDS:INTERNAL=ggml-cpu
 //STRINGS property for variable: GGML_CUDA_COMPRESSION_MODE
 GGML_CUDA_COMPRESSION_MODE-STRINGS:INTERNAL=none;speed;balance;size
 GGML_OPENMP_ENABLED:INTERNAL=ON
-//ADVANCED property for variable: GITCOMMAND
-GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MAKECOMMAND
-MAKECOMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MEMORYCHECK_COMMAND
-MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: MEMORYCHECK_SUPPRESSIONS_FILE
-MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
 OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENSSL_INCLUDE_DIR
@@ -1094,8 +1040,6 @@ OpenMP_pthread_LIBRARY-ADVANCED:INTERNAL=1
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: SITE
-SITE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _OPENSSL_CFLAGS:INTERNAL=-I/usr/include

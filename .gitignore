@@ -1,0 +1,6 @@
+# test folders
+models
+
+# build files
+*.a
+*.o

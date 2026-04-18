@@ -36,9 +36,9 @@ endif
 #
 
 BUILD_TYPE?=
-# keep standard at C11 and C++11
-CFLAGS   = -I./llama.cpp -I. -O3 -DNDEBUG -std=c11 -fPIC
-CXXFLAGS = -I./llama.cpp -I. -I./llama.cpp/common -I./common -O3 -DNDEBUG -std=c++11 -fPIC
+# Include paths updated for current llama.cpp layout
+CFLAGS   = -I./llama.cpp/include -I./llama.cpp/ggml/include -I. -O3 -DNDEBUG -std=c11 -fPIC
+CXXFLAGS = -I./llama.cpp/include -I./llama.cpp/ggml/include -I./llama.cpp/common -I. -O3 -DNDEBUG -std=c++17 -fPIC
 LDFLAGS  =
 
 # warnings
@@ -201,50 +201,27 @@ $(info )
 
 # Use this if you want to set the default behavior
 
-llama.cpp/grammar-parser.o: llama.cpp/ggml.o
-	cd build && cp -rf common/CMakeFiles/common.dir/grammar-parser.cpp.o ../llama.cpp/grammar-parser.o
-
-llama.cpp/ggml-alloc.o: llama.cpp/ggml.o
-	cd build && cp -rf CMakeFiles/ggml.dir/ggml-alloc.c.o ../llama.cpp/ggml-alloc.o
-
-llama.cpp/ggml.o: prepare
+# Build llama.cpp with cmake into ./build/
+cmake-build: prepare
 	mkdir -p build
-	cd build && CC="$(CC)" CXX="$(CXX)" cmake ../llama.cpp $(CMAKE_ARGS) && VERBOSE=1 cmake --build . --config Release && cp -rf CMakeFiles/ggml.dir/ggml.c.o ../llama.cpp/ggml.o
+	cd build && CC="$(CC)" CXX="$(CXX)" cmake ../llama.cpp $(CMAKE_ARGS) -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_EXAMPLES=OFF -DLLAMA_BUILD_SERVER=OFF && cmake --build . --config Release -j$(shell nproc 2>/dev/null || echo 4)
 
-llama.cpp/ggml-cuda.o: llama.cpp/ggml.o
-	cd build && cp -rf "$(GGML_CUDA_OBJ_PATH)" ../llama.cpp/ggml-cuda.o
+binding.o: cmake-build
+	$(CXX) $(CXXFLAGS) binding.cpp -o binding.o -c $(LDFLAGS)
 
-llama.cpp/ggml-opencl.o: llama.cpp/ggml.o
-	cd build && cp -rf CMakeFiles/ggml.dir/ggml-opencl.cpp.o ../llama.cpp/ggml-opencl.o
-
-llama.cpp/ggml-metal.o: llama.cpp/ggml.o
-	cd build && cp -rf CMakeFiles/ggml.dir/ggml-metal.m.o ../llama.cpp/ggml-metal.o
-
-llama.cpp/k_quants.o: llama.cpp/ggml.o
-	cd build && cp -rf CMakeFiles/ggml.dir/k_quants.c.o ../llama.cpp/k_quants.o
-
-llama.cpp/llama.o: llama.cpp/ggml.o
-	cd build && cp -rf CMakeFiles/llama.dir/llama.cpp.o ../llama.cpp/llama.o
-
-llama.cpp/common.o: llama.cpp/ggml.o
-	cd build && cp -rf common/CMakeFiles/common.dir/common.cpp.o ../llama.cpp/common.o
-
-binding.o: prepare
-	$(CXX) $(CXXFLAGS) -I./llama.cpp -I./llama.cpp/common binding.cpp -o binding.o -c $(LDFLAGS)
-
-## https://github.com/ggerganov/llama.cpp/pull/1902
+# No patch needed for the current llama.cpp version - binding code lives in binding.cpp
 prepare:
-	cd llama.cpp && patch -p1 < ../patches/1902-cuda.patch
 	touch $@
 
-libbinding.a: llama.cpp/ggml.o llama.cpp/k_quants.o llama.cpp/ggml-alloc.o llama.cpp/common.o llama.cpp/grammar-parser.o llama.cpp/llama.o binding.o $(EXTRA_TARGETS)
-	ar src libbinding.a llama.cpp/ggml.o llama.cpp/k_quants.o llama.cpp/ggml-alloc.o llama.cpp/common.o llama.cpp/grammar-parser.o llama.cpp/llama.o binding.o $(EXTRA_TARGETS)
+libbinding.a: cmake-build binding.o $(EXTRA_TARGETS)
+	ar rcs libbinding.a binding.o $(EXTRA_TARGETS) \
+		$$(find build/ggml/src build/src build/common -name "*.o" 2>/dev/null)
 
 clean:
 	rm -rf *.o
 	rm -rf *.a
-	$(MAKE) -C llama.cpp clean
 	rm -rf build
+	rm -f prepare
 
 ggllm-test-model.bin:
 	wget -q https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/resolve/main/codellama-7b-instruct.Q2_K.gguf -O ggllm-test-model.bin

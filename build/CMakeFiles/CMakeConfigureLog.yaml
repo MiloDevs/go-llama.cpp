@@ -36,6 +36,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/home/milo/.local/share/pnpm/uname"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/uname"
@@ -67,6 +68,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -111,6 +113,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/home/milo/.local/share/pnpm/gmake"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gmake"
@@ -128,6 +131,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gmake"
       - "/home/milo/Android/Sdk/tools/bin/gmake"
       - "/home/milo/Android/Sdk/platform-tools/gmake"
+      - "/home/milo/go/bin/gmake"
       - "/home/milo/.local/share/pnpm/make"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/make"
       - "/home/milo/.local/share/zinit/polaris/bin/make"
@@ -158,6 +162,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -194,6 +199,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/cc"
     search_context:
       ENV{PATH}:
@@ -219,6 +225,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -268,6 +275,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -326,6 +334,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/ar"
     search_context:
       ENV{PATH}:
@@ -351,6 +360,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -387,6 +397,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/ranlib"
     search_context:
       ENV{PATH}:
@@ -412,6 +423,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -448,6 +460,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/strip"
     search_context:
       ENV{PATH}:
@@ -473,6 +486,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -509,6 +523,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/ld"
     search_context:
       ENV{PATH}:
@@ -534,6 +549,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -570,6 +586,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/nm"
     search_context:
       ENV{PATH}:
@@ -595,6 +612,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -631,6 +649,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/objdump"
     search_context:
       ENV{PATH}:
@@ -656,6 +675,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -692,6 +712,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/objcopy"
     search_context:
       ENV{PATH}:
@@ -717,6 +738,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -753,6 +775,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/readelf"
     search_context:
       ENV{PATH}:
@@ -778,6 +801,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -814,6 +838,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/usr/sbin/dlltool"
       - "/home/milo/.local/share/pnpm/dlltool"
@@ -831,6 +856,7 @@ events:
       - "/home/milo/Android/Sdk/tools/dlltool"
       - "/home/milo/Android/Sdk/tools/bin/dlltool"
       - "/home/milo/Android/Sdk/platform-tools/dlltool"
+      - "/home/milo/go/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
@@ -856,6 +882,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -892,6 +919,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     found: "/usr/sbin/addr2line"
     search_context:
       ENV{PATH}:
@@ -917,6 +945,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -953,6 +982,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/usr/sbin/tapi"
       - "/home/milo/.local/share/pnpm/tapi"
@@ -970,6 +1000,7 @@ events:
       - "/home/milo/Android/Sdk/tools/tapi"
       - "/home/milo/Android/Sdk/tools/bin/tapi"
       - "/home/milo/Android/Sdk/platform-tools/tapi"
+      - "/home/milo/go/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -995,6 +1026,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1034,6 +1066,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/usr/sbin/gcc-ar-15.2"
       - "/home/milo/.local/share/pnpm/gcc-ar-15.2"
@@ -1051,6 +1084,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar-15.2"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar-15.2"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar-15.2"
+      - "/home/milo/go/bin/gcc-ar-15.2"
       - "/usr/sbin/gcc-ar-15"
       - "/home/milo/.local/share/pnpm/gcc-ar-15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ar-15"
@@ -1067,6 +1101,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar-15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar-15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar-15"
+      - "/home/milo/go/bin/gcc-ar-15"
       - "/usr/sbin/gcc-ar15"
       - "/home/milo/.local/share/pnpm/gcc-ar15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ar15"
@@ -1083,6 +1118,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar15"
+      - "/home/milo/go/bin/gcc-ar15"
     found: "/usr/sbin/gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1108,6 +1144,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1147,6 +1184,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/usr/sbin/gcc-ranlib-15.2"
       - "/home/milo/.local/share/pnpm/gcc-ranlib-15.2"
@@ -1164,6 +1202,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib-15.2"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib-15.2"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib-15.2"
+      - "/home/milo/go/bin/gcc-ranlib-15.2"
       - "/usr/sbin/gcc-ranlib-15"
       - "/home/milo/.local/share/pnpm/gcc-ranlib-15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ranlib-15"
@@ -1180,6 +1219,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib-15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib-15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib-15"
+      - "/home/milo/go/bin/gcc-ranlib-15"
       - "/usr/sbin/gcc-ranlib15"
       - "/home/milo/.local/share/pnpm/gcc-ranlib15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ranlib15"
@@ -1196,6 +1236,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib15"
+      - "/home/milo/go/bin/gcc-ranlib15"
     found: "/usr/sbin/gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1221,6 +1262,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1267,6 +1309,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1316,6 +1359,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "message-v1"
     backtrace:
@@ -1377,6 +1421,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/usr/sbin/gcc-ar-15.2"
       - "/home/milo/.local/share/pnpm/gcc-ar-15.2"
@@ -1394,6 +1439,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar-15.2"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar-15.2"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar-15.2"
+      - "/home/milo/go/bin/gcc-ar-15.2"
       - "/usr/sbin/gcc-ar-15"
       - "/home/milo/.local/share/pnpm/gcc-ar-15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ar-15"
@@ -1410,6 +1456,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar-15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar-15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar-15"
+      - "/home/milo/go/bin/gcc-ar-15"
       - "/usr/sbin/gcc-ar15"
       - "/home/milo/.local/share/pnpm/gcc-ar15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ar15"
@@ -1426,6 +1473,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar15"
+      - "/home/milo/go/bin/gcc-ar15"
     found: "/usr/sbin/gcc-ar"
     search_context:
       ENV{PATH}:
@@ -1451,6 +1499,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1490,6 +1539,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
     searched_directories:
       - "/usr/sbin/gcc-ranlib-15.2"
       - "/home/milo/.local/share/pnpm/gcc-ranlib-15.2"
@@ -1507,6 +1557,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib-15.2"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib-15.2"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib-15.2"
+      - "/home/milo/go/bin/gcc-ranlib-15.2"
       - "/usr/sbin/gcc-ranlib-15"
       - "/home/milo/.local/share/pnpm/gcc-ranlib-15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ranlib-15"
@@ -1523,6 +1574,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib-15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib-15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib-15"
+      - "/home/milo/go/bin/gcc-ranlib-15"
       - "/usr/sbin/gcc-ranlib15"
       - "/home/milo/.local/share/pnpm/gcc-ranlib15"
       - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcc-ranlib15"
@@ -1539,6 +1591,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib15"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib15"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib15"
+      - "/home/milo/go/bin/gcc-ranlib15"
     found: "/usr/sbin/gcc-ranlib"
     search_context:
       ENV{PATH}:
@@ -1564,6 +1617,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1573,8 +1627,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1584,14 +1638,14 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_6252c/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc'
-        /usr/sbin/make  -f CMakeFiles/cmTC_6252c.dir/build.make CMakeFiles/cmTC_6252c.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc'
-        Building C object CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o
-        /usr/sbin/cc   -v -o CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_03407/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT'
+        /usr/sbin/make  -f CMakeFiles/cmTC_03407.dir/build.make CMakeFiles/cmTC_03407.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT'
+        Building C object CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o
+        /usr/sbin/cc   -v -o CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/cc
         Target: x86_64-pc-linux-gnu
@@ -1599,8 +1653,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6252c.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6252c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwv8Brm.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03407.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03407.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccmea2ie.s
         GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1615,14 +1669,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6252c.dir/'
-         as -v --64 -o CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o /tmp/ccwv8Brm.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03407.dir/'
+         as -v --64 -o CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o /tmp/ccmea2ie.s
         GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_6252c
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_6252c.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_03407
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_03407.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -1633,15 +1687,15 @@ events:
         gcc version 15.2.1 20260209 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6252c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6252c.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuSzFe3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6252c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03407' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03407.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx8EZaM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_03407 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260209
-        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuSzFe3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6252c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx8EZaM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_03407 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6252c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6252c.'
-        /usr/sbin/cc  -v -Wl,-v CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -o cmTC_6252c
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03407' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03407.'
+        /usr/sbin/cc  -v -Wl,-v CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -o cmTC_03407
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT'
         
       exitCode: 0
   -
@@ -1676,14 +1730,14 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc']
+        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_6252c/fast]
-        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc']
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_6252c.dir/build.make CMakeFiles/cmTC_6252c.dir/build]
-        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vlywlc']
-        ignore line: [Building C object CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/sbin/cc   -v -o CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_03407/fast]
+        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT']
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_03407.dir/build.make CMakeFiles/cmTC_03407.dir/build]
+        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-HnhitT']
+        ignore line: [Building C object CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/sbin/cc   -v -o CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1691,8 +1745,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6252c.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_6252c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwv8Brm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03407.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_03407.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccmea2ie.s]
         ignore line: [GNU C23 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1707,14 +1761,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 4a3176b8a5098bb872007d0a1d5e5fb3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6252c.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o /tmp/ccwv8Brm.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03407.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o /tmp/ccmea2ie.s]
         ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_6252c]
-        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_6252c.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_03407]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_03407.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -1725,13 +1779,13 @@ events:
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6252c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6252c.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuSzFe3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6252c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_03407' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_03407.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx8EZaM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_03407 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccuSzFe3.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccx8EZaM.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1746,7 +1800,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_6252c] ==> ignore
+          arg [cmTC_03407] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -1758,7 +1812,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -1773,7 +1827,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260209]
-        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuSzFe3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6252c /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6252c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccx8EZaM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_03407 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_03407.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'C': /usr/sbin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1810,8 +1864,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1822,14 +1876,14 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_9026a/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F'
-        /usr/sbin/make  -f CMakeFiles/cmTC_9026a.dir/build.make CMakeFiles/cmTC_9026a.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F'
-        Building CXX object CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/sbin/g++   -v -o CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_364cd/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9'
+        /usr/sbin/make  -f CMakeFiles/cmTC_364cd.dir/build.make CMakeFiles/cmTC_364cd.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9'
+        Building CXX object CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/sbin/g++   -v -o CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/g++
         Target: x86_64-pc-linux-gnu
@@ -1837,8 +1891,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.1 20260209 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9026a.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9026a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc2ylzfZ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_364cd.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_364cd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccnnqtU5.s
         GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 15.2.1 20260209, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1856,14 +1910,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9026a.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2ylzfZ.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_364cd.dir/'
+         as -v --64 -o CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnnqtU5.s
         GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_9026a
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_9026a.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_364cd
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_364cd.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/g++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -1874,15 +1928,15 @@ events:
         gcc version 15.2.1 20260209 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9026a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9026a.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cczfiW7l.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9026a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_364cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_364cd.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYMd3AQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_364cd /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         collect2 version 15.2.1 20260209
-        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cczfiW7l.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9026a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        /usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYMd3AQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_364cd /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9026a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9026a.'
-        /usr/sbin/g++  -v -Wl,-v CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9026a
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_364cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_364cd.'
+        /usr/sbin/g++  -v -Wl,-v CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_364cd
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9'
         
       exitCode: 0
   -
@@ -1923,14 +1977,14 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F']
+        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_9026a/fast]
-        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F']
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_9026a.dir/build.make CMakeFiles/cmTC_9026a.dir/build]
-        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-glku9F']
-        ignore line: [Building CXX object CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/sbin/g++   -v -o CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_364cd/fast]
+        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9']
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_364cd.dir/build.make CMakeFiles/cmTC_364cd.dir/build]
+        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-EpZld9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/sbin/g++   -v -o CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/g++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1938,8 +1992,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9026a.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9026a.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/cc2ylzfZ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_364cd.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_364cd.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccnnqtU5.s]
         ignore line: [GNU C++17 (GCC) version 15.2.1 20260209 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 15.2.1 20260209  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1957,14 +2011,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 5e3969de92aa3c12a625237f01b15b2f]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9026a.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc2ylzfZ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_364cd.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnnqtU5.s]
         ignore line: [GNU assembler version 2.46 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_9026a]
-        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_9026a.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_364cd]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_364cd.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -1975,13 +2029,13 @@ events:
         ignore line: [gcc version 15.2.1 20260209 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9026a' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9026a.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cczfiW7l.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9026a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_364cd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_364cd.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYMd3AQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_364cd /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cczfiW7l.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccYMd3AQ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -1996,7 +2050,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9026a] ==> ignore
+          arg [cmTC_364cd] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o]
@@ -2008,7 +2062,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -2019,7 +2073,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 15.2.1 20260209]
-        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cczfiW7l.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9026a /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_9026a.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccYMd3AQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_364cd /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_364cd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/sbin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -2083,6 +2137,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2131,6 +2186,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2187,6 +2243,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2249,6 +2306,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2283,6 +2341,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar-"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar-"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar-"
+      - "/home/milo/go/bin/gcc-ar-"
       - "/usr/local/bin/gcc-ar-"
       - "/usr/local/sbin/gcc-ar-"
       - "/usr/local/gcc-ar-"
@@ -2316,6 +2375,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ar-"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ar-"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ar-"
+      - "/home/milo/go/bin/gcc-ar-"
       - "/usr/local/bin/gcc-ar-"
       - "/usr/local/sbin/gcc-ar-"
       - "/usr/local/gcc-ar-"
@@ -2358,6 +2418,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2407,6 +2468,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2441,6 +2503,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib-"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib-"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib-"
+      - "/home/milo/go/bin/gcc-ranlib-"
       - "/usr/local/bin/gcc-ranlib-"
       - "/usr/local/sbin/gcc-ranlib-"
       - "/usr/local/gcc-ranlib-"
@@ -2474,6 +2537,7 @@ events:
       - "/home/milo/Android/Sdk/tools/gcc-ranlib-"
       - "/home/milo/Android/Sdk/tools/bin/gcc-ranlib-"
       - "/home/milo/Android/Sdk/platform-tools/gcc-ranlib-"
+      - "/home/milo/go/bin/gcc-ranlib-"
       - "/usr/local/bin/gcc-ranlib-"
       - "/usr/local/sbin/gcc-ranlib-"
       - "/usr/local/gcc-ranlib-"
@@ -2516,6 +2580,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2561,6 +2626,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2609,6 +2675,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2630,8 +2697,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2642,19 +2709,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_a282b/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s'
-        /usr/sbin/make  -f CMakeFiles/cmTC_a282b.dir/build.make CMakeFiles/cmTC_a282b.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s'
-        Building C object CMakeFiles/cmTC_a282b.dir/src.c.o
-        /usr/sbin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -o CMakeFiles/cmTC_a282b.dir/src.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s/src.c
-        Linking C executable cmTC_a282b
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_a282b.dir/link.txt --verbose=1
-        /usr/sbin/cc CMakeFiles/cmTC_a282b.dir/src.c.o -o cmTC_a282b
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7d6z2s'
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_7f74e/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv'
+        /usr/sbin/make  -f CMakeFiles/cmTC_7f74e.dir/build.make CMakeFiles/cmTC_7f74e.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv'
+        Building C object CMakeFiles/cmTC_7f74e.dir/src.c.o
+        /usr/sbin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -o CMakeFiles/cmTC_7f74e.dir/src.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv/src.c
+        Linking C executable cmTC_7f74e
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_7f74e.dir/link.txt --verbose=1
+        /usr/sbin/cc CMakeFiles/cmTC_7f74e.dir/src.c.o -o cmTC_7f74e
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-vr8LTv'
         
       exitCode: 0
   -
@@ -2691,6 +2758,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2725,6 +2793,7 @@ events:
       - "/home/milo/Android/Sdk/tools/ccache"
       - "/home/milo/Android/Sdk/tools/bin/ccache"
       - "/home/milo/Android/Sdk/platform-tools/ccache"
+      - "/home/milo/go/bin/ccache"
       - "/usr/local/bin/ccache"
       - "/usr/local/sbin/ccache"
       - "/usr/local/ccache"
@@ -2767,6 +2836,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2811,6 +2881,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -2845,6 +2916,7 @@ events:
       - "/home/milo/Android/Sdk/tools/sccache"
       - "/home/milo/Android/Sdk/tools/bin/sccache"
       - "/home/milo/Android/Sdk/platform-tools/sccache"
+      - "/home/milo/go/bin/sccache"
       - "/usr/local/bin/sccache"
       - "/usr/local/sbin/sccache"
       - "/usr/local/sccache"
@@ -2887,6 +2959,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -2906,8 +2979,8 @@ events:
       - "ggml/src/CMakeLists.txt:446 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2918,16 +2991,16 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_17284/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa'
-        /usr/sbin/make  -f CMakeFiles/cmTC_17284.dir/build.make CMakeFiles/cmTC_17284.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa'
-        Building C object CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o
-        /usr/sbin/cc   -fopenmp -std=gnu11 -o CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa/OpenMPTryFlag.c
-        Linking C executable cmTC_17284
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_17284.dir/link.txt --verbose=1
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_ac7f9/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5'
+        /usr/sbin/make  -f CMakeFiles/cmTC_ac7f9.dir/build.make CMakeFiles/cmTC_ac7f9.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5'
+        Building C object CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o
+        /usr/sbin/cc   -fopenmp -std=gnu11 -o CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5/OpenMPTryFlag.c
+        Linking C executable cmTC_ac7f9
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7f9.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -2939,12 +3012,12 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_17284' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_17284.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdCJFD7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_17284 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_17284' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_17284.'
-        /usr/sbin/cc  -fopenmp -v CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o -o cmTC_17284
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ac7f9' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_ac7f9.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBNNcVK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ac7f9 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ac7f9' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_ac7f9.'
+        /usr/sbin/cc  -fopenmp -v CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o -o cmTC_ac7f9
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5'
         
       exitCode: 0
   -
@@ -2957,16 +3030,16 @@ events:
     message: |
       Parsed C OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa']
+        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_17284/fast]
-        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa']
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_17284.dir/build.make CMakeFiles/cmTC_17284.dir/build]
-        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa']
-        ignore line: [Building C object CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o]
-        ignore line: [/usr/sbin/cc   -fopenmp -std=gnu11 -o CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-JVXkNa/OpenMPTryFlag.c]
-        ignore line: [Linking C executable cmTC_17284]
-        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_17284.dir/link.txt --verbose=1]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_ac7f9/fast]
+        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5']
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_ac7f9.dir/build.make CMakeFiles/cmTC_ac7f9.dir/build]
+        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5']
+        ignore line: [Building C object CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o]
+        ignore line: [/usr/sbin/cc   -fopenmp -std=gnu11 -o CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-24feQ5/OpenMPTryFlag.c]
+        ignore line: [Linking C executable cmTC_ac7f9]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7f9.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -2978,13 +3051,13 @@ events:
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
         ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_17284' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_17284.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdCJFD7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_17284 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_ac7f9' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_ac7f9.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBNNcVK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ac7f9 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccdCJFD7.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccBNNcVK.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -3000,7 +3073,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_17284] ==> ignore
+          arg [cmTC_ac7f9] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib]
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
@@ -3008,7 +3081,7 @@ events:
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [CMakeFiles/cmTC_17284.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_ac7f9.dir/OpenMPTryFlag.c.o] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
@@ -3075,6 +3148,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
@@ -3114,6 +3188,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3166,6 +3241,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
@@ -3205,6 +3281,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3226,8 +3303,8 @@ events:
       - "ggml/src/CMakeLists.txt:446 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3238,16 +3315,16 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_b14c9/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6'
-        /usr/sbin/make  -f CMakeFiles/cmTC_b14c9.dir/build.make CMakeFiles/cmTC_b14c9.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6'
-        Building CXX object CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o
-        /usr/sbin/g++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6/OpenMPTryFlag.cpp
-        Linking CXX executable cmTC_b14c9
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_b14c9.dir/link.txt --verbose=1
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_cb4dd/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT'
+        /usr/sbin/make  -f CMakeFiles/cmTC_cb4dd.dir/build.make CMakeFiles/cmTC_cb4dd.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT'
+        Building CXX object CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o
+        /usr/sbin/g++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT/OpenMPTryFlag.cpp
+        Linking CXX executable cmTC_cb4dd
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_cb4dd.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/sbin/g++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper
@@ -3259,12 +3336,12 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/
         Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b14c9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_b14c9.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUDiQtF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b14c9 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b14c9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_b14c9.'
-        /usr/sbin/g++  -fopenmp -v CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o -o cmTC_b14c9
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cb4dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cb4dd.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHVLnfQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cb4dd /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cb4dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cb4dd.'
+        /usr/sbin/g++  -fopenmp -v CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o -o cmTC_cb4dd
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT'
         
       exitCode: 0
   -
@@ -3277,16 +3354,16 @@ events:
     message: |
       Parsed CXX OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6']
+        ignore line: [Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_b14c9/fast]
-        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6']
-        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_b14c9.dir/build.make CMakeFiles/cmTC_b14c9.dir/build]
-        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6']
-        ignore line: [Building CXX object CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o]
-        ignore line: [/usr/sbin/g++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-oLHSq6/OpenMPTryFlag.cpp]
-        ignore line: [Linking CXX executable cmTC_b14c9]
-        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_b14c9.dir/link.txt --verbose=1]
+        ignore line: [Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_cb4dd/fast]
+        ignore line: [make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT']
+        ignore line: [/usr/sbin/make  -f CMakeFiles/cmTC_cb4dd.dir/build.make CMakeFiles/cmTC_cb4dd.dir/build]
+        ignore line: [make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT']
+        ignore line: [Building CXX object CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/sbin/g++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-7t15hT/OpenMPTryFlag.cpp]
+        ignore line: [Linking CXX executable cmTC_cb4dd]
+        ignore line: [/usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_cb4dd.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/sbin/g++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper]
@@ -3298,13 +3375,13 @@ events:
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../:/lib/:/usr/lib/]
         ignore line: [Reading specs from /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_b14c9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_b14c9.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUDiQtF.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_b14c9 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_cb4dd' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_cb4dd.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHVLnfQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_cb4dd /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../.. -L/lib -L/usr/lib CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccUDiQtF.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccHVLnfQ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -3320,7 +3397,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b14c9] ==> ignore
+          arg [cmTC_cb4dd] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib]
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
@@ -3328,7 +3405,7 @@ events:
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../..]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [CMakeFiles/cmTC_b14c9.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_cb4dd.dir/OpenMPTryFlag.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgomp] ==> lib [gomp]
@@ -3360,8 +3437,8 @@ events:
       - "ggml/src/CMakeLists.txt:446 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -3372,19 +3449,19 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_fb8db/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB'
-        /usr/sbin/make  -f CMakeFiles/cmTC_fb8db.dir/build.make CMakeFiles/cmTC_fb8db.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB'
-        Building C object CMakeFiles/cmTC_fb8db.dir/OpenMPCheckVersion.c.o
-        /usr/sbin/cc   -fopenmp -std=gnu11 -o CMakeFiles/cmTC_fb8db.dir/OpenMPCheckVersion.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB/OpenMPCheckVersion.c
-        Linking C executable cmTC_fb8db
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_fb8db.dir/link.txt --verbose=1
-        /usr/sbin/cc  -fopenmp CMakeFiles/cmTC_fb8db.dir/OpenMPCheckVersion.c.o -o cmTC_fb8db
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-UanAYB'
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_4121f/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke'
+        /usr/sbin/make  -f CMakeFiles/cmTC_4121f.dir/build.make CMakeFiles/cmTC_4121f.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke'
+        Building C object CMakeFiles/cmTC_4121f.dir/OpenMPCheckVersion.c.o
+        /usr/sbin/cc   -fopenmp -std=gnu11 -o CMakeFiles/cmTC_4121f.dir/OpenMPCheckVersion.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke/OpenMPCheckVersion.c
+        Linking C executable cmTC_4121f
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_4121f.dir/link.txt --verbose=1
+        /usr/sbin/cc  -fopenmp CMakeFiles/cmTC_4121f.dir/OpenMPCheckVersion.c.o -o cmTC_4121f
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-TcaSke'
         
       exitCode: 0
   -
@@ -3396,8 +3473,8 @@ events:
       - "ggml/src/CMakeLists.txt:446 (ggml_add_cpu_backend_variant_impl)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3408,19 +3485,19 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_56f00/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR'
-        /usr/sbin/make  -f CMakeFiles/cmTC_56f00.dir/build.make CMakeFiles/cmTC_56f00.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR'
-        Building CXX object CMakeFiles/cmTC_56f00.dir/OpenMPCheckVersion.cpp.o
-        /usr/sbin/g++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_56f00.dir/OpenMPCheckVersion.cpp.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR/OpenMPCheckVersion.cpp
-        Linking CXX executable cmTC_56f00
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_56f00.dir/link.txt --verbose=1
-        /usr/sbin/g++  -fopenmp CMakeFiles/cmTC_56f00.dir/OpenMPCheckVersion.cpp.o -o cmTC_56f00
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-nGInRR'
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_beacc/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW'
+        /usr/sbin/make  -f CMakeFiles/cmTC_beacc.dir/build.make CMakeFiles/cmTC_beacc.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW'
+        Building CXX object CMakeFiles/cmTC_beacc.dir/OpenMPCheckVersion.cpp.o
+        /usr/sbin/g++   -fopenmp -std=gnu++17 -o CMakeFiles/cmTC_beacc.dir/OpenMPCheckVersion.cpp.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_beacc
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_beacc.dir/link.txt --verbose=1
+        /usr/sbin/g++  -fopenmp CMakeFiles/cmTC_beacc.dir/OpenMPCheckVersion.cpp.o -o cmTC_beacc
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-4E0ONW'
         
       exitCode: 0
   -
@@ -3457,6 +3534,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/lib/"
       - "/usr/local/"
       - "/usr/lib/"
@@ -3486,6 +3564,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/lib/"
       - "/usr/local/"
     found: "/usr/lib/libm.so"
@@ -3513,6 +3592,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3562,6 +3642,7 @@ events:
       - "/home/milo/Android/Sdk/tools/"
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/"
       - "/usr/local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/"
@@ -3615,6 +3696,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3674,6 +3756,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3735,6 +3818,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3800,6 +3884,8 @@ events:
       - "/home/milo/Android/Sdk/tools/bin/"
       - "/home/milo/Android/Sdk/platform-tools/include/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/include/"
+      - "/home/milo/go/bin/"
       - "/usr/local/include/include/"
       - "/usr/local/include/"
       - "/usr/local/include/"
@@ -3851,6 +3937,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -3935,6 +4022,9 @@ events:
       - "/home/milo/Android/Sdk/platform-tools/lib/"
       - "/home/milo/Android/Sdk/platform-tools/lib64/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/lib/"
+      - "/home/milo/go/bin/lib64/"
+      - "/home/milo/go/bin/"
       - "/usr/local/lib/lib/"
       - "/usr/local/lib/lib64/"
       - "/usr/local/lib/"
@@ -4003,6 +4093,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -4085,6 +4176,9 @@ events:
       - "/home/milo/Android/Sdk/platform-tools/lib/"
       - "/home/milo/Android/Sdk/platform-tools/lib64/"
       - "/home/milo/Android/Sdk/platform-tools/"
+      - "/home/milo/go/bin/lib/"
+      - "/home/milo/go/bin/lib64/"
+      - "/home/milo/go/bin/"
       - "/usr/local/lib/lib/"
       - "/usr/local/lib/lib64/"
       - "/usr/local/lib/"
@@ -4149,6 +4243,7 @@ events:
         - "/home/milo/Android/Sdk/tools"
         - "/home/milo/Android/Sdk/tools/bin"
         - "/home/milo/Android/Sdk/platform-tools"
+        - "/home/milo/go/bin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/local"
@@ -4170,8 +4265,8 @@ events:
     checks:
       - "Performing Test OPENSSL_VERSION_SUPPORTED"
     directories:
-      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB"
-      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB"
+      source: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG"
+      binary: "/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -4182,496 +4277,19 @@ events:
       variable: "OPENSSL_VERSION_SUPPORTED"
       cached: true
       stdout: |
-        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB'
+        Change Dir: '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG'
         
-        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_7ed7e/fast
-        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB'
-        /usr/sbin/make  -f CMakeFiles/cmTC_7ed7e.dir/build.make CMakeFiles/cmTC_7ed7e.dir/build
-        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB'
-        Building C object CMakeFiles/cmTC_7ed7e.dir/src.c.o
-        /usr/sbin/cc -DOPENSSL_VERSION_SUPPORTED   -o CMakeFiles/cmTC_7ed7e.dir/src.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB/src.c
-        Linking C executable cmTC_7ed7e
-        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_7ed7e.dir/link.txt --verbose=1
-        /usr/sbin/cc CMakeFiles/cmTC_7ed7e.dir/src.c.o -o cmTC_7ed7e
-        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB'
-        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-gmL5dB'
+        Run Build Command(s): /usr/sbin/cmake -E env VERBOSE=1 /usr/sbin/make -f Makefile cmTC_cfd7f/fast
+        make[1]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG'
+        /usr/sbin/make  -f CMakeFiles/cmTC_cfd7f.dir/build.make CMakeFiles/cmTC_cfd7f.dir/build
+        make[2]: Entering directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG'
+        Building C object CMakeFiles/cmTC_cfd7f.dir/src.c.o
+        /usr/sbin/cc -DOPENSSL_VERSION_SUPPORTED   -o CMakeFiles/cmTC_cfd7f.dir/src.c.o -c /home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG/src.c
+        Linking C executable cmTC_cfd7f
+        /usr/sbin/cmake -E cmake_link_script CMakeFiles/cmTC_cfd7f.dir/link.txt --verbose=1
+        /usr/sbin/cc CMakeFiles/cmTC_cfd7f.dir/src.c.o -o cmTC_cfd7f
+        make[2]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG'
+        make[1]: Leaving directory '/home/milo/projects/go-llama.cpp/build/CMakeFiles/CMakeScratch/TryCompile-rAJrwG'
         
       exitCode: 0
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CTest.cmake:171 (find_program)"
-      - "CMakeLists.txt:205 (include)"
-    mode: "program"
-    variable: "GITCOMMAND"
-    description: "Path to a program."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "git"
-    candidate_directories:
-      - "/home/milo/.local/share/pnpm/"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/"
-      - "/home/milo/.local/share/zinit/polaris/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/lib/jvm/default/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/home/milo/Android/Sdk/tools/"
-      - "/home/milo/Android/Sdk/tools/bin/"
-      - "/home/milo/Android/Sdk/platform-tools/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-    searched_directories:
-      - "/home/milo/.local/share/pnpm/git"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/git"
-      - "/home/milo/.local/share/zinit/polaris/bin/git"
-      - "/usr/local/sbin/git"
-      - "/usr/local/bin/git"
-    found: "/usr/sbin/git"
-    search_context:
-      ENV{PATH}:
-        - "/home/milo/.local/share/pnpm"
-        - "/home/milo/.nvm/versions/node/v22.20.0/bin"
-        - "/home/milo/.local/share/zinit/polaris/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/lib/jvm/default/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CTest.cmake:188 (find_program)"
-      - "CMakeLists.txt:205 (include)"
-    mode: "program"
-    variable: "MEMORYCHECK_COMMAND"
-    description: "Path to the memory checking command, used for memory error detection."
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "purify"
-      - "valgrind"
-      - "boundscheck"
-      - "drmemory"
-      - "cuda-memcheck"
-      - "compute-sanitizer"
-    candidate_directories:
-      - "/home/milo/.local/share/pnpm/"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/"
-      - "/home/milo/.local/share/zinit/polaris/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/lib/jvm/default/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/home/milo/Android/Sdk/tools/"
-      - "/home/milo/Android/Sdk/tools/bin/"
-      - "/home/milo/Android/Sdk/platform-tools/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-    searched_directories:
-      - "/home/milo/.local/share/pnpm/purify"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/purify"
-      - "/home/milo/.local/share/zinit/polaris/bin/purify"
-      - "/usr/local/sbin/purify"
-      - "/usr/local/bin/purify"
-      - "/usr/sbin/purify"
-      - "/usr/bin/purify"
-      - "/sbin/purify"
-      - "/bin/purify"
-      - "/usr/lib/jvm/default/bin/purify"
-      - "/usr/bin/site_perl/purify"
-      - "/usr/bin/vendor_perl/purify"
-      - "/usr/bin/core_perl/purify"
-      - "/home/milo/Android/Sdk/tools/purify"
-      - "/home/milo/Android/Sdk/tools/bin/purify"
-      - "/home/milo/Android/Sdk/platform-tools/purify"
-      - "/usr/local/bin/purify"
-      - "/usr/local/sbin/purify"
-      - "/usr/local/purify"
-      - "/usr/bin/purify"
-      - "/usr/sbin/purify"
-      - "/usr/purify"
-      - "/bin/purify"
-      - "/sbin/purify"
-      - "/usr/X11R6/bin/purify"
-      - "/usr/X11R6/sbin/purify"
-      - "/usr/X11R6/purify"
-      - "/usr/pkg/bin/purify"
-      - "/usr/pkg/sbin/purify"
-      - "/usr/pkg/purify"
-      - "/opt/bin/purify"
-      - "/opt/sbin/purify"
-      - "/opt/purify"
-      - "/home/milo/.local/share/pnpm/valgrind"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/valgrind"
-      - "/home/milo/.local/share/zinit/polaris/bin/valgrind"
-      - "/usr/local/sbin/valgrind"
-      - "/usr/local/bin/valgrind"
-      - "/usr/sbin/valgrind"
-      - "/usr/bin/valgrind"
-      - "/sbin/valgrind"
-      - "/bin/valgrind"
-      - "/usr/lib/jvm/default/bin/valgrind"
-      - "/usr/bin/site_perl/valgrind"
-      - "/usr/bin/vendor_perl/valgrind"
-      - "/usr/bin/core_perl/valgrind"
-      - "/home/milo/Android/Sdk/tools/valgrind"
-      - "/home/milo/Android/Sdk/tools/bin/valgrind"
-      - "/home/milo/Android/Sdk/platform-tools/valgrind"
-      - "/usr/local/bin/valgrind"
-      - "/usr/local/sbin/valgrind"
-      - "/usr/local/valgrind"
-      - "/usr/bin/valgrind"
-      - "/usr/sbin/valgrind"
-      - "/usr/valgrind"
-      - "/bin/valgrind"
-      - "/sbin/valgrind"
-      - "/usr/X11R6/bin/valgrind"
-      - "/usr/X11R6/sbin/valgrind"
-      - "/usr/X11R6/valgrind"
-      - "/usr/pkg/bin/valgrind"
-      - "/usr/pkg/sbin/valgrind"
-      - "/usr/pkg/valgrind"
-      - "/opt/bin/valgrind"
-      - "/opt/sbin/valgrind"
-      - "/opt/valgrind"
-      - "/home/milo/.local/share/pnpm/boundscheck"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/boundscheck"
-      - "/home/milo/.local/share/zinit/polaris/bin/boundscheck"
-      - "/usr/local/sbin/boundscheck"
-      - "/usr/local/bin/boundscheck"
-      - "/usr/sbin/boundscheck"
-      - "/usr/bin/boundscheck"
-      - "/sbin/boundscheck"
-      - "/bin/boundscheck"
-      - "/usr/lib/jvm/default/bin/boundscheck"
-      - "/usr/bin/site_perl/boundscheck"
-      - "/usr/bin/vendor_perl/boundscheck"
-      - "/usr/bin/core_perl/boundscheck"
-      - "/home/milo/Android/Sdk/tools/boundscheck"
-      - "/home/milo/Android/Sdk/tools/bin/boundscheck"
-      - "/home/milo/Android/Sdk/platform-tools/boundscheck"
-      - "/usr/local/bin/boundscheck"
-      - "/usr/local/sbin/boundscheck"
-      - "/usr/local/boundscheck"
-      - "/usr/bin/boundscheck"
-      - "/usr/sbin/boundscheck"
-      - "/usr/boundscheck"
-      - "/bin/boundscheck"
-      - "/sbin/boundscheck"
-      - "/usr/X11R6/bin/boundscheck"
-      - "/usr/X11R6/sbin/boundscheck"
-      - "/usr/X11R6/boundscheck"
-      - "/usr/pkg/bin/boundscheck"
-      - "/usr/pkg/sbin/boundscheck"
-      - "/usr/pkg/boundscheck"
-      - "/opt/bin/boundscheck"
-      - "/opt/sbin/boundscheck"
-      - "/opt/boundscheck"
-      - "/home/milo/.local/share/pnpm/drmemory"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/drmemory"
-      - "/home/milo/.local/share/zinit/polaris/bin/drmemory"
-      - "/usr/local/sbin/drmemory"
-      - "/usr/local/bin/drmemory"
-      - "/usr/sbin/drmemory"
-      - "/usr/bin/drmemory"
-      - "/sbin/drmemory"
-      - "/bin/drmemory"
-      - "/usr/lib/jvm/default/bin/drmemory"
-      - "/usr/bin/site_perl/drmemory"
-      - "/usr/bin/vendor_perl/drmemory"
-      - "/usr/bin/core_perl/drmemory"
-      - "/home/milo/Android/Sdk/tools/drmemory"
-      - "/home/milo/Android/Sdk/tools/bin/drmemory"
-      - "/home/milo/Android/Sdk/platform-tools/drmemory"
-      - "/usr/local/bin/drmemory"
-      - "/usr/local/sbin/drmemory"
-      - "/usr/local/drmemory"
-      - "/usr/bin/drmemory"
-      - "/usr/sbin/drmemory"
-      - "/usr/drmemory"
-      - "/bin/drmemory"
-      - "/sbin/drmemory"
-      - "/usr/X11R6/bin/drmemory"
-      - "/usr/X11R6/sbin/drmemory"
-      - "/usr/X11R6/drmemory"
-      - "/usr/pkg/bin/drmemory"
-      - "/usr/pkg/sbin/drmemory"
-      - "/usr/pkg/drmemory"
-      - "/opt/bin/drmemory"
-      - "/opt/sbin/drmemory"
-      - "/opt/drmemory"
-      - "/home/milo/.local/share/pnpm/cuda-memcheck"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/cuda-memcheck"
-      - "/home/milo/.local/share/zinit/polaris/bin/cuda-memcheck"
-      - "/usr/local/sbin/cuda-memcheck"
-      - "/usr/local/bin/cuda-memcheck"
-      - "/usr/sbin/cuda-memcheck"
-      - "/usr/bin/cuda-memcheck"
-      - "/sbin/cuda-memcheck"
-      - "/bin/cuda-memcheck"
-      - "/usr/lib/jvm/default/bin/cuda-memcheck"
-      - "/usr/bin/site_perl/cuda-memcheck"
-      - "/usr/bin/vendor_perl/cuda-memcheck"
-      - "/usr/bin/core_perl/cuda-memcheck"
-      - "/home/milo/Android/Sdk/tools/cuda-memcheck"
-      - "/home/milo/Android/Sdk/tools/bin/cuda-memcheck"
-      - "/home/milo/Android/Sdk/platform-tools/cuda-memcheck"
-      - "/usr/local/bin/cuda-memcheck"
-      - "/usr/local/sbin/cuda-memcheck"
-      - "/usr/local/cuda-memcheck"
-      - "/usr/bin/cuda-memcheck"
-      - "/usr/sbin/cuda-memcheck"
-      - "/usr/cuda-memcheck"
-      - "/bin/cuda-memcheck"
-      - "/sbin/cuda-memcheck"
-      - "/usr/X11R6/bin/cuda-memcheck"
-      - "/usr/X11R6/sbin/cuda-memcheck"
-      - "/usr/X11R6/cuda-memcheck"
-      - "/usr/pkg/bin/cuda-memcheck"
-      - "/usr/pkg/sbin/cuda-memcheck"
-      - "/usr/pkg/cuda-memcheck"
-      - "/opt/bin/cuda-memcheck"
-      - "/opt/sbin/cuda-memcheck"
-      - "/opt/cuda-memcheck"
-      - "/home/milo/.local/share/pnpm/compute-sanitizer"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/compute-sanitizer"
-      - "/home/milo/.local/share/zinit/polaris/bin/compute-sanitizer"
-      - "/usr/local/sbin/compute-sanitizer"
-      - "/usr/local/bin/compute-sanitizer"
-      - "/usr/sbin/compute-sanitizer"
-      - "/usr/bin/compute-sanitizer"
-      - "/sbin/compute-sanitizer"
-      - "/bin/compute-sanitizer"
-      - "/usr/lib/jvm/default/bin/compute-sanitizer"
-      - "/usr/bin/site_perl/compute-sanitizer"
-      - "/usr/bin/vendor_perl/compute-sanitizer"
-      - "/usr/bin/core_perl/compute-sanitizer"
-      - "/home/milo/Android/Sdk/tools/compute-sanitizer"
-      - "/home/milo/Android/Sdk/tools/bin/compute-sanitizer"
-      - "/home/milo/Android/Sdk/platform-tools/compute-sanitizer"
-      - "/usr/local/bin/compute-sanitizer"
-      - "/usr/local/sbin/compute-sanitizer"
-      - "/usr/local/compute-sanitizer"
-      - "/usr/bin/compute-sanitizer"
-      - "/usr/sbin/compute-sanitizer"
-      - "/usr/compute-sanitizer"
-      - "/bin/compute-sanitizer"
-      - "/sbin/compute-sanitizer"
-      - "/usr/X11R6/bin/compute-sanitizer"
-      - "/usr/X11R6/sbin/compute-sanitizer"
-      - "/usr/X11R6/compute-sanitizer"
-      - "/usr/pkg/bin/compute-sanitizer"
-      - "/usr/pkg/sbin/compute-sanitizer"
-      - "/usr/pkg/compute-sanitizer"
-      - "/opt/bin/compute-sanitizer"
-      - "/opt/sbin/compute-sanitizer"
-      - "/opt/compute-sanitizer"
-    found: false
-    search_context:
-      ENV{PATH}:
-        - "/home/milo/.local/share/pnpm"
-        - "/home/milo/.nvm/versions/node/v22.20.0/bin"
-        - "/home/milo/.local/share/zinit/polaris/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/lib/jvm/default/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-  -
-    kind: "find-v1"
-    backtrace:
-      - "/usr/share/cmake/Modules/CTest.cmake:196 (find_program)"
-      - "CMakeLists.txt:205 (include)"
-    mode: "program"
-    variable: "COVERAGE_COMMAND"
-    description: "Path to the coverage program that CTest uses for performing coverage inspection"
-    settings:
-      SearchFramework: "NEVER"
-      SearchAppBundle: "NEVER"
-      CMAKE_FIND_USE_CMAKE_PATH: true
-      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-      CMAKE_FIND_USE_INSTALL_PREFIX: true
-    names:
-      - "gcov"
-    candidate_directories:
-      - "/home/milo/.local/share/pnpm/"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/"
-      - "/home/milo/.local/share/zinit/polaris/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/bin/"
-      - "/usr/sbin/"
-      - "/usr/bin/"
-      - "/sbin/"
-      - "/bin/"
-      - "/usr/lib/jvm/default/bin/"
-      - "/usr/bin/site_perl/"
-      - "/usr/bin/vendor_perl/"
-      - "/usr/bin/core_perl/"
-      - "/home/milo/Android/Sdk/tools/"
-      - "/home/milo/Android/Sdk/tools/bin/"
-      - "/home/milo/Android/Sdk/platform-tools/"
-      - "/usr/local/bin/"
-      - "/usr/local/sbin/"
-      - "/usr/local/"
-      - "/usr/bin/"
-      - "/usr/sbin/"
-      - "/usr/"
-      - "/bin/"
-      - "/sbin/"
-      - "/usr/X11R6/bin/"
-      - "/usr/X11R6/sbin/"
-      - "/usr/X11R6/"
-      - "/usr/pkg/bin/"
-      - "/usr/pkg/sbin/"
-      - "/usr/pkg/"
-      - "/opt/bin/"
-      - "/opt/sbin/"
-      - "/opt/"
-    searched_directories:
-      - "/home/milo/.local/share/pnpm/gcov"
-      - "/home/milo/.nvm/versions/node/v22.20.0/bin/gcov"
-      - "/home/milo/.local/share/zinit/polaris/bin/gcov"
-      - "/usr/local/sbin/gcov"
-      - "/usr/local/bin/gcov"
-    found: "/usr/sbin/gcov"
-    search_context:
-      ENV{PATH}:
-        - "/home/milo/.local/share/pnpm"
-        - "/home/milo/.nvm/versions/node/v22.20.0/bin"
-        - "/home/milo/.local/share/zinit/polaris/bin"
-        - "/usr/local/sbin"
-        - "/usr/local/bin"
-        - "/usr/sbin"
-        - "/usr/bin"
-        - "/sbin"
-        - "/bin"
-        - "/usr/lib/jvm/default/bin"
-        - "/usr/bin/site_perl"
-        - "/usr/bin/vendor_perl"
-        - "/usr/bin/core_perl"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-        - "/home/milo/Android/Sdk/tools"
-        - "/home/milo/Android/Sdk/tools/bin"
-        - "/home/milo/Android/Sdk/platform-tools"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/usr"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
 ...

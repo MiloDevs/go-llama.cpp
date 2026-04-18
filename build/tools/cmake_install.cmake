@@ -79,16 +79,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/milo/projects/go-llama.cpp/build/tools/cli/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/milo/projects/go-llama.cpp/build/tools/server/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("/home/milo/projects/go-llama.cpp/build/tools/tokenize/cmake_install.cmake")
 endif()
 

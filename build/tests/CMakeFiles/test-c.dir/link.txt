@@ -1,1 +1,0 @@
-/usr/sbin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/test-c.dir/link.d "CMakeFiles/test-c.dir/test-c.c.o" -o ../bin/test-c  -Wl,-rpath,/home/milo/projects/go-llama.cpp/build/bin ../bin/libllama.so.0.0.8797 ../bin/libggml.so.0.9.11 ../bin/libggml-cpu.so.0.9.11 ../bin/libggml-base.so.0.9.11
